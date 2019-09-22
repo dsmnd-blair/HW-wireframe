@@ -2,7 +2,13 @@
     box-sizing: border-box;
     text-align: center;
   }
+body {
+    width: 960px;
+    background: #4d4242
+}
 header {
+    margin-left: 30%;
+    margin-right: -40%;
     padding: 20px;
     margin-bottom: 20px;
     color: #ffffff;
@@ -11,6 +17,8 @@ header {
     font-family: 'Big Shoulders Display', cursive;
   }
  nav {
+    margin-left: 30%;
+    margin-right: -40%;
     padding: 20px;
     margin-bottom: 20px;
     color: #ffffff;
@@ -21,9 +29,8 @@ header {
  }
 
  section { 
-     float: left;
-     width: 495px;
-     box-sizing: content-box;
+     margin-left: 30%;
+     width: 595px;
      padding: 10px;
      margin-bottom: 10px;
      background: #978888;
@@ -35,7 +42,11 @@ header {
 
  aside {
      float: right;
-     width: fit-content;
+     overflow-wrap: normal;
+     padding: 20px;
+     margin-bottom: 20px;
+     width: 300px;
+     background: #978888;
      font-family: 'Inconsolata', monospace;
 
  }
@@ -46,8 +57,7 @@ header {
      font-family: 'Inconsolata', monospace;
      text-align: center;
      background: 
-
- }
+    }
 
  h1,h2,h3 {
     font-family: 'Inconsolata', monospace;
